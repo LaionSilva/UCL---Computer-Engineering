@@ -33,7 +33,7 @@ class MainClass {
           if(nPrimos[j] > Math.Sqrt(i)) { break; }
         }
         if(check) { 
-          Console.WriteLine("{0} - D.E: {1}", i, j + 1); 
+          Console.WriteLine("{0} - Divisões Realizadas: {1}", i, j + 1); 
           nPrimos.Add(i); cont++;
         }
       }
