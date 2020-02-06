@@ -49,5 +49,20 @@ namespace logistica {
       else
         Console.ReadKey(); 
     }
+
+
+  }
+  
+
+  public class Users{
+    public string codMatriz = "";
+    public List<string> usuarios = new  List<string>();
+    public List<string> senhas = new  List<string>();
+
+    public void Reset(){
+      usuarios.Clear();
+      senhas.Clear();
+      codMatriz = "";
+    }
   }
 }
